@@ -59,3 +59,30 @@ do {
         </div>
         `)
   }
+
+
+
+
+/* ANOTHER SOLUTION */
+
+// var arr = []
+// var sum = 0 
+// var multiple = 1
+// for (let i = 0; i < 3; i++) {
+//     do {
+//         var num = prompt(`enter value ${i+1}`)
+//     } while (!isFinite(num) || num == "")
+//         arr.push(Number(num))
+//         var division = arr[0]
+//         sum+=arr[i];
+//         multiple*=arr[i]
+//         if (i < arr.length -1) {
+//             division /=arr[i+1]
+//         }
+// }
+
+// console.log(sum);
+// console.log(multiple);
+// console.log(division);
+
+// use eval()
