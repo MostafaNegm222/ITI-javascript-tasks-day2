@@ -1,99 +1,49 @@
-# README: JavaScript Tasks Solution
+# ITI JavaScript Tasks - Day 2
 
-This document provides a brief explanation of the solutions implemented for the tasks involving **String Object**, **Math Object**, and **Array Object** in JavaScript.
+## 1. Description
 
----
+Solutions for the ITI JavaScript day 2 tasks, practicing the String, Math and Array objects in the browser.
 
-## String Object Tasks
+## 2. Technologies and Versions
 
-### 1.1 Palindrome Check
-- **Description**: The script determines whether the entered string is a palindrome. It provides the user with the option to either consider or ignore case sensitivity.
-- **Functionality**:
-  - Prompts the user for a string.
-  - Asks the user if case sensitivity should be considered.
-  - Checks if the string reads the same forward and backward based on the user's preference.
-  - Examples:
-    - Case insensitive: `Radar`, `Noon`, and `MOOM` are palindromes.
-    - Case sensitive: `raDaR` is not a palindrome.
-    
----
+- HTML5, vanilla JavaScript (no build step)
 
-### 1.2 Count 'e' Characters
-- **Description**: The script accepts a string from the user and counts the number of occurrences of the character `e`.
-- **Functionality**:
-  - Prompts the user for a string input.
-  - Iterates through the string to count the occurrences of `e`.
-  - Outputs the total count to the user.
+## 3. Requirements and Dependencies
 
----
+- A modern web browser
+- No packages to install
 
-### 1.3 User Info Validation
-- **Description**: This script reads user information (e.g., name, age, email) and validates the inputs.
-- **Functionality**:
-  - Prompts the user for their name, age, and email.
-  - Validates:
-    - Name: Non-empty and contains only letters.
-    - Age: A valid number greater than 0.
-    - Email: Matches a basic email format.
-  - Displays a welcoming message with the validated information.
+## 4. Installation and Run Steps
 
----
+```bash
+git clone https://github.com/MostafaNegm222/ITI-javascript-tasks-day2.git
+cd ITI-javascript-tasks-day2
+```
 
-## Math Object Tasks
+Open the task's HTML file in a browser; the scripts run with prompts and alerts.
 
-### 2.1 Circle Area Calculation
-- **Description**: The script calculates the area of a circle based on the radius entered by the user.
-- **Functionality**:
-  - Prompts the user for the radius of a circle.
-  - Uses the formula `Area = π * radius²` to calculate the area.
-  - Alerts the user with the calculated area.
+## 5. Environment Variables
 
----
+None required.
 
-### 2.2 Square Root Calculation
-- **Description**: The script calculates the square root of a value entered by the user.
-- **Functionality**:
-  - Prompts the user for a numeric input.
-  - Computes the square root using `Math.sqrt`.
-  - Alerts the user with the result.
+## 6. Usage and Main Features
 
----
+**String object tasks**
 
-## Array Object Tasks
+- **Palindrome check:** asks for a string and whether case should be considered, then checks if it reads the same forward and backward.
+- **Count 'e' characters:** counts the occurrences of `e` in the entered string.
+- **User info validation:** reads name, age and email and validates them (letters-only name, age a number greater than 0, basic email format), then shows a welcome message.
 
-### 3.1 Mathematical Operations on Array
-- **Description**: This script performs mathematical operations (addition, multiplication, and division) on an array of three elements provided by the user.
-- **Functionality**:
-  - Prompts the user to input three numeric values.
-  - Performs:
-    - Addition of all elements.
-    - Multiplication of all elements.
-    - Division of the first element by the second and then the result by the third.
-  - Outputs the results in a formatted way.
+**Math object tasks**
 
----
+- **Circle area:** calculates the area from the entered radius (`pi * r^2`).
+- **Square root:** calculates the square root of the entered value.
+- Further tasks in the repo cover the Array object.
 
-### 3.2 Array Sorting
-- **Description**: The script sorts an array of five elements in both ascending and descending orders.
-- **Functionality**:
-  - Prompts the user to input five numeric values.
-  - Sorts the array:
-    - In ascending order using `Array.sort`.
-    - In descending order using `Array.sort` with a compare function.
-  - Displays both sorted arrays.
+## 7. Screenshots / Demo
 
----
+No demo; run the HTML files locally.
 
-## Bonus Features
-- Scripts include basic error handling (e.g., invalid inputs).
-- User-friendly prompts and alerts for interaction.
-- Modular and reusable functions for better code organization.
+## 8. Running Tests
 
----
-
-## How to Run
-1. Copy the provided JavaScript code to a `.js` file or directly into the developer console of your browser.
-2. Open an HTML file in a browser and include the script using the `<script>` tag.
-3. Follow the prompts to execute each task.
-
-Enjoy exploring the solutions! 😊
+No automated tests in this repo.
